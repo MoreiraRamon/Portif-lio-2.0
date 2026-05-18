@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0f19; /* Um tom escuro premium entre o preto e o azul fechado */
+    color: white;              /* Transforma a cor de todos os textos em branco */
+    font-family: 'Inter', Arial, sans-serif; /* Nova fonte premium aplicada */
+    padding: 30px;             /* Afasta todo o conteúdo das bordas do ecrã */
+}
+
+/* Configuração do Canvas para virar o plano de fundo */
+#particle-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;          
+    pointer-events: none; 
+}
+
+section {
+    margin-bottom: 40px;       
+}
+
+/* Estilização das caixas de conteúdo (Cards) */
+div {
+    background-color: #161b26; 
+    padding: 20px;             
+    border-radius: 8px;        
+    margin-bottom: 15px;       
+}
+
+/* Regra geral para dar espaço entre o ícone e o texto nos links */
+a i {
+    margin-right: 8px;
+}
+
+/* Regra para os links do menu de navegação (Estado Normal) */
+header ul li a {
+    color: #38bdf8;            
+    text-decoration: none;     
+    font-weight: bold;         
+}
+
+/* Regra para a interação com os links (Estado Hover) */
+header ul li a:hover {
+    color: white;              
+}
+
+/* Regra para o rodapé da página */
+footer {
+    text-align: center;        
+    margin-top: 50px;          
+    color: #94a3b8;            
+}
+
+/* Espaçamento dos links de redes sociais no rodapé */
+.social-links {
+    margin-top: 15px;
+}
+
+footer .social-links a {
+    color: #38bdf8;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+footer .social-links a:hover {
+    color: white;
+}
