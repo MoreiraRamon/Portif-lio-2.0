@@ -73,3 +73,15 @@ footer .social-links a {
 footer .social-links a:hover {
     color: white;
 }
+
+
+/* 📱 Secção Exclusiva para Telemóveis */
+@media (max-width: 768px) {
+    body {
+        padding: 15px; /* Aplica-se APENAS em ecrãs pequenos */
+    }
+    
+    header ul li {
+        margin-bottom: 10px; /* Separa os links apenas no telemóvel */
+    }
+}
